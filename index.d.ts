@@ -180,6 +180,7 @@ export interface VideoProperties extends ViewProps {
     reportBandwidth?: boolean | undefined;
     disableFocus?: boolean | undefined;
     controls?: boolean | undefined;
+    enableMediaSession?: boolean | undefined;
     currentTime?: number | undefined;
     progressUpdateInterval?: number | undefined;
     useTextureView?: boolean | undefined;
