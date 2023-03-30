@@ -186,6 +186,7 @@ export interface VideoProperties extends ViewProps {
     useTextureView?: boolean | undefined;
     hideShutterView?: boolean | undefined;
     allowsExternalPlayback?: boolean | undefined;
+    mediaSessionMetadata?: { title?: string; subtitle?: string; description?: string; imageUri?: string } | undefined;
     audioOnly?: boolean | undefined;
     preventsDisplaySleepDuringVideoPlayback?: boolean | undefined;
     drm?: DRMSettings | undefined;
